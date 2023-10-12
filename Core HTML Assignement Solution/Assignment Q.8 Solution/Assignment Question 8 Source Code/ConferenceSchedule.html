@@ -1,0 +1,106 @@
+<!--  A table to display A Conference Schedule -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Schedule</title>
+</head>
+<body>
+    <!-- Conference Schedule -->
+    <h1 align="center">Conference Schedule</h1>
+
+    <!-- Timings and Rooms For Conferences -->
+    <table border="1" cellpadding="10">
+
+                   
+        <!-- 1st Row of Table -->
+        <tr>
+            
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+            <th>Room 4</th>
+        </tr>
+
+        <!-- 2nd Row Of Table -->
+        <tr>
+            <td rowspan="3">9:00 AM - 10:00 AM</td>
+
+            <!-- Keynote in Room 1 between 9 AM and 10 AM -->
+            <td rowspan="2" align="center">Keynote</td>
+
+            <!-- Session A in Room 2 between 9 AM and 10 AM  -->
+            <td>Session A</td>
+
+            <!-- Session B in Room 3 between 9 AM and 10 AM-->
+            <td>Session B</td>
+
+            <!-- Session C in Room 4 between 9 AM and 11:30 AM  -->
+            <td rowspan="3">Session C</td>
+        </tr>
+
+        <!-- 3rd Row OF Table -->
+        <tr>
+            <!-- Session D in Room 2 between 9 AM and 10 AM -->
+            <td>Session D</td>
+
+            <!-- Session E in Room 3 between 9 AM and 10 AM-->
+            <td>Session E</td>
+        </tr>
+
+        <!-- 4th Row Of Table -->
+        <tr>
+            <td> 10:30 AM - 11:30 AM</td>
+
+            <!-- Session F in Room 2 and 3 between 10:30 AM and 11:30 AM -->
+                   <td colspan="2" align="center">Session F</td>
+
+        </tr>
+
+        <!-- 5th Row Of Table -->
+        <!-- Lunch Break(Between 12 PM and 1 PM)In All Rooms -->
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td colspan="4" align="center">Lunch Break</td>
+        </tr>
+
+        <!-- 6th Row Of Table -->
+        <tr>
+            <!-- Sessions G,H,I,J between 1 pm and 2 pm -->
+            <td rowspan="2">1:00 PM - 2:00 PM</td>
+            
+                        
+            <!-- Session G in Room 1 between 1 pm and 2 pm -->
+                <td align="center">Session G</td>
+
+                        
+            <!-- Session H in Room 2 between 1 pm and 2 pm-->
+               <td rowspan="2">Session H</td>
+
+            <!-- Session I in Room 3 between 1 pm and 2 pm -->
+            <td>Session I</td> 
+
+            <!-- Session J in Room 4 between 1 pm and 2 pm-->
+            <td>Session J</td>
+        </tr>
+
+        <!-- 7th Row Of Table -->
+        <tr>
+           <!-- Sessions K,L,M between 1 pm and 2 pm -->
+
+          <!-- Session K in Room 1 between 1 pm and 2 pm-->
+                  <td align="center">Session K</td>
+
+          <!-- Session L in Room 3 between 1 pm and 2 pm-->
+            <td>Session L</td>
+
+          <!-- Session M in Room 4  between 1 pm and 2 pm-->
+             <td>Session M</td>
+
+        </tr>
+
+    </table>
+</body>
+</html>
